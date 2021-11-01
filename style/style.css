@@ -1,0 +1,895 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+/* логотип */
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 700px;
+    background-image:url(../img/Background.jpg);
+    
+
+}
+.container-two{
+    margin: auto;
+    width: 1440px;
+   
+
+}
+.header-top{
+    position: relative;
+    top: 46px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+button.log{
+    margin-right: 19px;
+    background-image: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: medium none;
+}
+button.sign{
+    width: 90px;
+    height: 36px;
+    background-image: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+}
+.text-dreem{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.share-text{
+    margin-top: 177.5px;
+    width: 470px;
+    height: 126px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center; 
+    color: #FFFFFF; 
+}
+.min-tex{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top:28.5px;
+    
+    height: 25px;
+    color: #F7F3F2; 
+}
+button.find{
+    width: 225px;
+    height: 40px;
+    margin-top: 86.5PX;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: medium none;
+}
+/* логотип кінець */
+
+/* секція 1 */
+
+.dream{
+    margin: 95px auto;
+    width: 940px;
+    height: 461px;
+}
+/* текст заголовків 3-х блоків */
+.text{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+}
+/* текст заголовків 3-х блоків  end*/
+
+.img-dream{
+    margin-top:13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    
+}
+.img-dream.one{
+    width: 300px;
+    background-image: url(../img/Step1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-dream.two{
+    width: 300px;
+    background-image: url(../img/Step2.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-dream.three{
+    width: 300px;
+    background-image: url(../img/Step3.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.step-two{
+    margin-top: 250px;
+    margin-right: 180px;
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border: medium none;
+
+}
+.tex-drem-big-two{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    width: 250px;
+    height: 29px;
+    color: #FFFFFF;
+
+}
+.tex-drem-small-two{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 57px;
+    color: #E3E3E3;
+
+}
+
+
+.step{
+    margin-top: 219px;
+    margin-right: 180px;
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border: medium none;
+}
+.tex-drem-big{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    width: 250px;
+    height: 58px;
+    color: #FFFFFF;
+}
+.tex-drem-small{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 57px;
+    color: #E3E3E3;
+}
+
+
+/* секція 1 кінець*/
+
+
+/* секція 2 */
+.meet{
+    margin:auto;
+    width:940px ;
+    height: 361px;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    width: 100%;
+    height: 224px;
+}
+.box.one{
+    width: 221px;
+    height: 205px;
+}
+.box.two{
+    width: 221px;
+    height: 205px;
+}
+.box.three{
+    width: 221px;
+    height: 224px;
+}
+.box.four{
+    width: 221px;
+    height: 224px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img.one{
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/pepl1.jpg);
+    border-radius: 50%;
+}
+.img.two{
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/pepl2.jpg);
+    border-radius: 50%;
+}
+.img.three{
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/pepl3.jpg);
+    border-radius: 50%;
+}
+.img.four{
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/pepl4.jpg);
+    border-radius: 50%;
+}
+.img.one::after{
+    content: '';
+    background-color: #FF4E50;
+    background-image: url(../svg/music.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.img.two::after{
+    content: '';
+    background-color: #19D4CA;
+    background-image: url(../svg/brush.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.img.three::after{
+    content: '';
+    background-color: #FFA710;
+    background-image: url(../svg/camera.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.img.four::after{
+    content: '';
+    background-color: #667DF3;
+    background-image: url(../svg/airplane.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.img::after{
+content: '';
+
+position: absolute;
+margin: 83px 83px;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 4px solid white;
+}
+/* текст */
+.text-meet{
+    width: 100%;
+    min-height: 80px;
+}
+.big-meet{
+    margin-top: 12px;
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+
+}
+.small-meet{
+    margin-top: 12px;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #666666;
+}
+.small-meet-one{
+    margin-top: 23px;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #666666;
+
+}
+/* текст кінець */
+/* кнопка */
+.but{display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    width: 100%;
+    height: 40px;
+}
+.see{
+    height: 100%;
+    width: 180px;
+    border-radius: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #FF4E50;
+}
+/* кнопка енд */
+/* секція 2 кінець */
+
+
+/* секція 3 */
+.holiday{
+    margin:auto;
+    margin-top: 95px;
+    width: 940px;
+    height: 1031px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    height: 970px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 310px;
+}
+.dis-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+}
+.dis-img.one{
+    background-image:url(../img/Sport1.jpg);
+
+}
+.dis-img.two{
+    width: 300px;
+    background-image: url(../img/Healath2.jpg);
+    
+}
+.dis-img.three{
+    background-image: url(../img/Extreme3.jpg);
+    text-align: center;
+}
+.dis-img.four{
+    background-image: url(../img/Games4.jpg);
+    
+}
+.dis-img.five{
+    background-image: url(../img/Culture5.jpg);
+    height: 100%;
+    width: 620px;
+}
+.dis-img.six{
+    background-image: url(../img/CultureCopy6.jpg);
+    height: 100%;
+    width: 620px;
+
+}
+.dis-img.seven{
+    background-image: url(../img/GamesCopy7.jpg);
+    
+}
+.text-dis{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+/* секція 3 кінець */
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 93px;
+    width: 482px;
+    height: 158px;
+}
+.button-search{
+    width: 299px;
+    height: 40px;
+}
+.but-search{
+    width: 172px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FF4E50;
+    color:  #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    border: none;
+}
+.text-search{
+    font-style: normal;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #444444;
+}
+.text-small-search{
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    font-style: normal;
+    color: #666666;
+}
+
+/* футер */
+.footer{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    border-top: 2px solid red;
+    width: 1440px;
+    height: 224px;
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+    color: #999999;
+}
+.boks{
+    margin-top: 38px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    font-style: normal;
+}
+.ones{
+    margin-left: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    font-style: normal;
+}
+
+.des{
+    margin-left: 30px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+    font-style: normal;
+
+}
+.areto{
+    margin-top: 3px;
+    width: 110px;
+    height: 24px;
+    background-image: url(../img/areto.png);
+}
+/* футер енд */
+
+@media (max-width: 1440px){
+    body{
+        width: 100%;
+    }
+
+}
+@media (max-width: 788px ){
+    .container{
+   
+        width: 768px;  
+    }
+    /* -------------- */
+    .container-two{
+        
+        width: 768px; 
+    }
+    .dream{
+        width: 748px;
+    }
+    .img-dream.one{
+        width: 236px;
+    }
+    .img-dream.two{
+        width: 236px;
+    }
+    .img-dream.three{
+        width: 236px;
+    }
+    .step{
+        position: relative;
+        left: 28px;
+    }
+    .step-two{
+        position: relative;
+        left: 28px;
+    }
+    .tex-drem-big{
+        width: 196px;
+    }
+    .tex-drem-small{
+        width: 196px;
+    }
+    .tex-drem-big-two{
+        width: 196px;
+    }
+    .tex-drem-small-two{
+        width: 196px;
+    }
+
+    /* ---------------- */
+    .meet{
+        width: 768px;
+    }
+    .people{
+        margin: auto;
+        width: 492px;
+        height: 605px;
+    }
+    .box{
+        margin-top: 35px;
+    }
+    .holiday{
+        margin-top: 335px;
+    }
+    /* --------------- */
+    .holiday{
+        width: 748px;
+    }
+    .dis-img{
+        width: 236px;
+    }
+    .dis-img.two{
+        width: 236px;
+    }
+    .dis-img.five{
+        width: 492px;
+    }
+    .dis-img.six{
+        width: 492px;
+    }
+    /* ------------- */
+ .footer{
+    width: 768px;
+}
+}
+ @media (max-width: 420px ){
+.container{
+    width: 320px;
+    height: 540px;
+    background-image: url(../img/img-320/Background.jpg);
+    background-repeat: no-repeat;
+
+}
+.container-two{
+    width: 320px;
+}
+
+.text-dreem{
+    position: relative;
+    left: 80px;
+    margin: 136px 0 auto;
+}
+.button{
+    position: relative;
+    right: 70px
+;
+}
+.share-text{
+    width: 272px;
+    height: 74px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    font-style: normal;
+}
+.min-tex{
+    width: 280px;
+    height: 49px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: center;
+} 
+/* -------------- */
+ .dream{
+    margin: 0 auto;
+    width: 300px;
+    height: 781px;
+}
+.img-dream{
+    
+    margin: 0 auto;
+    width: 300px;
+    height: 751px;
+    
+}
+.img-dream.one{
+    height: 240px;
+    background-image: url(../img/img-320/Step1image.jpg);
+}
+.img-dream.two{
+    height: 240px;
+    background-image: url(../img/img-320/Step2image.jpg);
+}
+.img-dream.three{
+    height: 240px;
+    background-image: url(../img/img-320/Step3image.jpg);
+}
+.text{
+    line-height: 27px;
+    font-size: 22px;
+}
+.step{
+    margin-top: 69px;
+}
+.step-two{
+    margin-top: 110px;
+}
+.tex-drem-big{
+    margin-top: 26px;
+    line-height: 14px;
+    font-size: 24px;
+}
+.tex-drem-big-two{
+    position: relative;
+    top: 10px;
+    line-height: 14px;
+    font-size: 24px;
+}
+.tex-drem-small-two{
+    margin-top: 5px;
+    font-family: Roboto;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+}
+.tex-drem-small{
+    font-family: Roboto;
+    position: relative;
+    bottom: 17px;
+
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+}
+
+/* -------------- */
+.meet{
+    
+    width: 300px;
+}
+.people{
+    justify-content: center;
+    width: 300px;
+  
+}
+.box.one{
+    width: 236px;
+}
+.box.two{
+    width: 236px;
+}
+.box.three{
+    width: 236px;
+}
+.box.four{
+    width: 236px;
+}
+.see{
+    width: 280px;
+}
+/* ------------ */
+.wrap{
+    flex-wrap: wrap;
+}
+.holiday{
+    width: 300px;
+    margin-top: 790px;
+}
+.dis-img{
+    width: 300px;
+    height: 120px;
+}
+.dis-img.one{
+    background-image: url(../img/img-320/Sport1.jpg);
+
+}
+.dis-img.two{
+    width: 300px;
+    background-image: url(../img/img-320/Healath2.jpg);
+}
+.dis-img.three{
+background-image: url(../img/img-320/Extreme3.jpg);
+}
+.dis-img.four{
+background-image: url(../img/img-320/Games4.jpg);
+}
+.dis-img.five{
+    height: 120px;
+    background-image: url(../img/img-320/Culture4.jpg);
+}
+.dis-img.six{
+    background-image: url(../img/img-320/CultureCopy5.jpg);
+    height: 120px;
+}
+.dis-img.seven{
+    background-image: url(../img/img-320/GamesCopy6.jpg);
+
+}
+.content{
+    height: 921px;
+}
+.wrap.one{
+    height: 390px;
+}
+.wrap.two{
+    height: 260px;
+}
+.wrap.three{
+    height: 260px;
+}
+.content{
+    height: 910px;
+}
+/* ------------ */
+.search{
+  width: 280px;
+  bottom: 121px;
+  position: relative;
+}
+.but{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.button-search{
+    width: 280px;
+}
+.but-search{
+    margin-top: 10px;
+    width: 280px;
+}
+.text-search{
+    line-height: 27px;
+    font-size: 22px;
+    text-align: center;
+}
+.text-small-search{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+/* -------------- */
+.footer{
+    margin-top: -40px;
+    width: 320px;
+}
+.boks{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 19px;
+    height: 204px;
+}
+.inform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 280px;
+    height: 52px;
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    
+}
+.tex-inf{
+    margin: 0 5px;
+}
+.ones{
+    line-height: 20px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.company{
+    text-align: center;
+}
+} 
